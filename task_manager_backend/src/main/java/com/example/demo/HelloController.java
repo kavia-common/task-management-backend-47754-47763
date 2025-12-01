@@ -35,7 +35,7 @@ public class HelloController {
 
         String target = UriComponentsBuilder
                 .fromHttpUrl(baseUrl)
-                .path("/swagger-ui.html")
+                .path("/swagger-ui/index.html")
                 .build()
                 .toUriString();
 
